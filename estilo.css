@@ -1,0 +1,85 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    /*border: .2rem solid aqua;*/
+    padding: 0rem;
+}
+
+body {
+    /* border: .2rem solid rgb(0, 255, 76); */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    /* border: .2rem  solid red; */
+    background-color: rgb(51, 46, 46);
+    padding: .6rem;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: .2rem solid rgb(182, 182, 238); */
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    background-color: blue;
+    color: rgb(233, 232, 232);
+    padding: 1rem;
+}
+
+#titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(233, 232, 232);
+}
+
+section {
+    display: flex;
+    /* border: .2rem solid rgb(11, 236, 105); */
+    flex: 1;
+}
+
+nav {
+    /* border: .2rem solid plum; */
+    width: 15rem;
+    background-color: #817e7e;
+}
+
+main {
+    /* border: .2rem solid orange; */
+    flex: 1;
+    padding: 1rem;
+}
+
+.cartao {
+    border: .2rem solid rgb(160, 22, 22);
+    width: 15rem;
+    height: 20rem;
+    padding: .7rem;
+    box-shadow: .5rem .5rem .3rem .01rem #eee;
+}
+
+.produto {
+    width: 15rem;
+}
+
+footer {
+    /* border: .2rem solid yellow; */
+    background-color: rgb(51, 46, 46);
+    padding: 3rem;
+    color: aliceblue;
+}
