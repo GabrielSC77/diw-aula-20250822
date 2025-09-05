@@ -1,0 +1,95 @@
+/* Reset */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centralizar conteúdo */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container principal */
+.container-cadastro {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Título */
+h1 {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Card do produto */
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img {
+  border-bottom: 1px solid #eee;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 0.6rem;
+}
+
+.btn-primary {
+  background: #28a745;
+  border: none;
+  padding: 0.7rem;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #218838;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container-cadastro {
+    grid-template-columns: 1fr;
+  }
+}
